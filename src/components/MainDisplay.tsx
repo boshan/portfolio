@@ -1,13 +1,13 @@
 import { Box, Flex, HStack, Image, Spacer, Text } from "@chakra-ui/react";
 
-import Miworgif from "../assets/Miworgif.gif";
+import miworgif from "../assets/miworgif.gif";
 
 const BigImage = () => {
   return (
     <HStack>
       <Spacer />
       <Box display={"grid"}>
-        <Image src={Miworgif} w="700px" h="550px" />
+        <Image src={miworgif} w="700px" h="550px" />
       </Box>
       <Box marginLeft="5%">
         <Text
