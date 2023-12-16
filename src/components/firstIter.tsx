@@ -15,10 +15,9 @@ const firstIter = () => {
           The features we had identified as most important were:
           <br /> <br />
           <b>
-            User support, Recommendation, Wardrobe, Search, Shopping and Blur.
+            Recommendations, User support, Wardrobe, Search, Shopping and Blur.
           </b>
         </Text>
-        <Text>The goal of the mirror is to</Text>
       </Box>
       <Spacer />
       <Spacer />

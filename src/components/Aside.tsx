@@ -6,9 +6,11 @@ const Aside = () => {
       <Spacer />
       <Box>
         <Text>
-          Design and communicate about a fictional smart mirror <br />
-          by creating a high fidelity prototype with figma and <br />
-          incorporating feedback. <br /> <br />
+          Design and communicate about a fictional smart mirror by creating a
+          <br />
+          high fidelity prototype with figma and incorporating feedback.
+          <br />
+          <br />
           <b>Skills showcased: Figma, UI/UX design</b>
         </Text>
       </Box>

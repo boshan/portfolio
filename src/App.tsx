@@ -24,15 +24,15 @@ function App() {
         <Aside />
       </GridItem>
 
-      <GridItem area="personas" bg="#d8d8d8">
+      <GridItem area="personas">
         <Personas />
       </GridItem>
 
-      <GridItem area="first">
+      <GridItem area="first" bg="#d8d8d8">
         <First />
       </GridItem>
 
-      <GridItem area="feedback" bg="#d8d8d8">
+      <GridItem area="feedback">
         <Feedback />
       </GridItem>
 
