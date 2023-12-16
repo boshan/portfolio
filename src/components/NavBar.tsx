@@ -1,4 +1,4 @@
-import { Button, Flex, HStack, Image, Spacer, Text } from "@chakra-ui/react";
+import { Button, HStack, Image, Spacer, Text } from "@chakra-ui/react";
 import logo from "../assets/logo.webp";
 import { Link } from "react-router-dom";
 
