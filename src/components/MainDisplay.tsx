@@ -18,7 +18,7 @@ const BigImage = () => {
         >
           MIWOR
         </Text>
-        <Text fontSize={18} fontFamily="palatino" color="black">
+        <Text color="black">
           Course name: INST406 - Cross Disciplinary Communication Lab
           <br />
           Date: 8/28/2023 to 12/15/2023, 15 weeks

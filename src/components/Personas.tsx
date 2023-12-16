@@ -55,7 +55,7 @@ const Personas = () => {
 
         <Box>
           <Text>
-            Steve's office just recently got a new dresscode <br />
+            Steve's office recently got a new dresscode <br />
             and he wants to improve his <b>style</b>.
           </Text>{" "}
         </Box>

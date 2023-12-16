@@ -36,7 +36,7 @@ function App() {
         <Feedback />
       </GridItem>
 
-      <GridItem area="second">
+      <GridItem area="second" bg="#d8d8d8">
         <Second />
       </GridItem>
     </Grid>

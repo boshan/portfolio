@@ -11,20 +11,23 @@ const Feedback = () => {
         <Text>
           After presenting our prototype to the class our most valuable feedback{" "}
           <br />
-          revolved around the impracticality of touching the mirror all the time{" "}
-          <br />
-          to interact with it. The solution we found to this issue is to create
-          <br />
-          a mobile application that can interface with the mirror and have
+          revolved around the{" "}
+          <b>
+            impracticality of touching the mirror all the time <br />
+            to interact with it
+          </b>
+          . The solution we found to this issue is to create
+          <br />a <b>mobile application</b> that can interface with the mirror
+          and have
           <br />
           access to all the features.
         </Text>
         <br />
         <Text>
-          We also got feedback that wardrobe icon was confusing so we fixed that{" "}
-          <br />
-          and added a home button and a scan feature that can scan in clothes to{" "}
-          <br />
+          We also got feedback that the wardrobe icon was confusing so we fixed
+          that <br />
+          and added a home button and a scan feature that can scan in clothes
+          from <br />
           your wardrobe.
         </Text>
       </Box>
