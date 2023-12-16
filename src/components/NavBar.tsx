@@ -6,6 +6,7 @@ const NavBar = () => {
     <HStack>
       <Image src={logo} boxSize="60px" />
       <Spacer />
+      <Button marginRight="20px">Projects</Button>
       <Button marginRight="20px">About</Button>
     </HStack>
   );

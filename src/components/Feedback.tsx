@@ -9,8 +9,8 @@ const Feedback = () => {
 
       <Box>
         <Text>
-          After presenting our prototype to the class our most valuable feedback{" "}
-          <br />
+          After presenting our prototype to the class, our most valuable
+          feedback <br />
           revolved around the{" "}
           <b>
             impracticality of touching the mirror all the time <br />
@@ -18,14 +18,14 @@ const Feedback = () => {
           </b>
           . The solution we found to this issue is to create
           <br />a <b>mobile application</b> that can interface with the mirror
-          and have
+          and also have
           <br />
           access to all the features.
         </Text>
         <br />
         <Text>
-          We also got feedback that the wardrobe icon was confusing so we fixed
-          that <br />
+          Additionally, we got feedback that the wardrobe icon was confusing so
+          we fixed that <br />
           and added a home button and a scan feature that can scan in clothes
           from <br />
           your wardrobe.

@@ -1,4 +1,4 @@
-import { Box, HStack, Image, Spacer, Text } from "@chakra-ui/react";
+import { Box, HStack, Image, Link, Spacer, Text } from "@chakra-ui/react";
 import Miworgif from "../assets/miworgif.gif";
 
 const secondIter = () => {
@@ -8,15 +8,15 @@ const secondIter = () => {
 
       <Box>
         <Text>
-          This is the first iteration of the prototype <br />
-          which has all the key features we brainstormed.
-        </Text>
-        <Text>
-          The features we had identified as most important were:
-          <br /> <br />
-          <b>
-            Recommendations, User support, Wardrobe, Search, Shopping and Blur.
-          </b>
+          Our final product is a high fidelity figma prototype with working{" "}
+          <br />
+          buttons and all the feedback included.
+          <br />
+          <br />
+          You can interact with the prototype{" "}
+          <Link href="https://tinyurl.com/2s4ex68v" color="#0000FF">
+            Here
+          </Link>
         </Text>
       </Box>
       <Spacer />
