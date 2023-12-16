@@ -1,12 +1,13 @@
-import { Box, Flex, HStack, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, HStack, Image, Spacer, Text } from "@chakra-ui/react";
 
 import Miworgif from "../assets/miworgif.gif";
 
 const BigImage = () => {
   return (
     <HStack>
-      <Box marginLeft="20%" display={"grid"}>
-        <Image src={Miworgif} />
+      <Spacer />
+      <Box display={"grid"}>
+        <Image src={Miworgif} w="700px" h="550px" />
       </Box>
       <Box marginLeft="5%">
         <Text
@@ -17,16 +18,17 @@ const BigImage = () => {
         >
           MIWOR
         </Text>
-        <Text fontSize={18} fontFamily="Montserrat" color="black">
+        <Text fontSize={18} fontFamily="palatino" color="black">
           Course name: INST406 - Cross Disciplinary Communication Lab
           <br />
-          Time: 8/28/2023 to 12/15/2023, 15 weeks
+          Date: 8/28/2023 to 12/15/2023, 15 weeks
           <br />
           Team Members: Timothy Chun
           <br />
           Role: Visual design
         </Text>
       </Box>
+      <Spacer />
     </HStack>
   );
 };

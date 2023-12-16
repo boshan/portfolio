@@ -1,13 +1,24 @@
-import { Text } from "@chakra-ui/react";
-import { chakra } from "@chakra-ui/react";
+import { Box, HStack, Spacer, Text } from "@chakra-ui/react";
+
 const Aside = () => {
   return (
-    <Text>
-      Design and communicate about a fictional smart mirror, <br />
-      by creating a high fidelity prototype with figma and making smart design
-      decisions <br />
-      Skills showcased: Figma
-    </Text>
+    <HStack>
+      <Spacer />
+      <Box>
+        <Text>
+          Design and communicate about a fictional smart mirror <br />
+          by creating a high fidelity prototype with figma and <br />
+          incorporating feedback. <br /> <br />
+          <b>Skills showcased: Figma</b>
+        </Text>
+      </Box>
+      <Spacer />
+      <Spacer />
+      <Spacer />
+      <Spacer />
+      <Spacer />
+      <Spacer />
+    </HStack>
   );
 };
 
