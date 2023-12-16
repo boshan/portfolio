@@ -1,4 +1,4 @@
-import { Box, Flex, HStack, Image, Spacer, Text } from "@chakra-ui/react";
+import { Box, HStack, Image, Spacer, Text } from "@chakra-ui/react";
 
 import miworgif from "../assets/miworgif.gif";
 
