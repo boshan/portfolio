@@ -1,6 +1,6 @@
 import { Box, Flex, HStack, Image, Spacer, Text } from "@chakra-ui/react";
 
-import Miworgif from "../assets/miworgif.gif";
+import Miworgif from "../assets/Miworgif.gif";
 
 const BigImage = () => {
   return (
