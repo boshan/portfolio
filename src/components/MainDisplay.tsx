@@ -7,7 +7,7 @@ const BigImage = () => {
     <HStack>
       <Spacer />
       <Box display={"grid"}>
-        <Image src={miworgif} w="30px" h="40px" />
+        <Image src={miworgif} w="700px" h="550px" />
       </Box>
       <Box marginLeft="5%">
         <Text
