@@ -2,13 +2,15 @@ import { Grid, GridItem, Show } from "@chakra-ui/react";
 import NavBar from "./components/NavBar";
 import MainDisplay from "./components/MainDisplay";
 import Aside from "./components/Aside";
+import Personas from "./components/Personas";
 import First from "./components/firstIter";
 import Second from "./components/secondIter";
+import Feedback from "./components/Feedback";
 
 function App() {
   return (
     <Grid
-      templateAreas={`"nav nav" "main main" "aside aside" "first first" "second second"`}
+      templateAreas={`"nav nav" "main main" "aside aside" "personas personas" "first first" "feedback feedback" "second second"`}
     >
       <GridItem area="nav" bg="#2F3134">
         <NavBar />
@@ -22,8 +24,16 @@ function App() {
         <Aside />
       </GridItem>
 
+      <GridItem area="personas" bg="#d8d8d8">
+        <Personas />
+      </GridItem>
+
       <GridItem area="first">
         <First />
+      </GridItem>
+
+      <GridItem area="feedback" bg="#d8d8d8">
+        <Feedback />
       </GridItem>
 
       <GridItem area="second">
