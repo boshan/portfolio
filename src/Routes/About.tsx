@@ -4,7 +4,7 @@ import { Box, Center, Text } from "@chakra-ui/react";
 
 const About = () => {
   return (
-    <Box bg="gold" height="80em">
+    <Box bg="dodgerblue" height="80em">
       <NavBar />
       <Center fontSize={50}>Hey, I'm Bohan.</Center>
       <Center marginTop={5}>
